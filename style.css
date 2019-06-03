@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: white;
+  }
+  #buttercup {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: white;
+    overflow: hidden;
+  }
+  #blackhair {
+    width: 290px;
+    height: 300px;
+    position: absolute;
+    background: black;
+    border-radius: 90%;
+  }
+  #blackhair .blackhair-1 {
+    background: white;
+    border-radius: 19%;
+    width: 332px;
+    height: 308px;
+    position: absolute;
+    top: -145px;
+    left: -20px;
+  }
+  #face {
+    background: #FFCFB9;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 230px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    top: 250px;
+    overflow: hidden;
+  }
+  #hair {
+    background: #000;
+    border: 2px solid #000;
+    height: 125px;
+    width: 250px;
+    margin-left: -10px;
+    position: absolute;
+    top: -63px;
+    z-index: 1;
+  }
+  #hair>span {
+    position: absolute;
+    bottom: -3px;
+    left: 103px;
+    border-width: 0 18px 30px 19px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 30px solid #FFCFB9;
+  }
+  #left-eye {
+    width: 80px;
+    height: 100px;
+    border-radius: 100%;
+    background: white;
+    border: 2px solid #000;
+    position: relative;
+    top: 35px;
+    left: 8px;
+    overflow: hidden;
+  }
+  #left-eye .eye-green {
+    width: 80px;
+    height: 86px;
+    background: #5EBE43;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    left: 10px;
+  }
+  #left-eye .eye-black {
+    height: 68px;
+    width: 60px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+  }
+  #left-eye .eye-black > span {
+    height: 24px;
+    width: 22px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    top: 21px;
+    left: 20px;
+  }
+  #right-eye {
+    width: 80px;
+    height: 100px;
+    border-radius: 100%;
+    background: white;
+    border: 2px solid #000;
+    position: relative;
+    top: -65px;
+    right: -140px;
+    overflow: hidden;
+  }
+  #right-eye .eye-green {
+    width: 80px;
+    height: 86px;
+    background: #5EBE43;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    right: 13px;
+  }
+  #right-eye .eye-black {
+    height: 68px;
+    width: 60px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    right: 18px;
+  }
+  #right-eye .eye-black > span {
+    height: 24px;
+    width: 22px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    top: 21px;
+    right: 20px;
+  }
+  #mouth {
+    height: 32px;
+    width: 31px;
+    background: #7C645A;
+    border-radius: 100%;
+    position: absolute;
+    top: 66%;
+    left: 44%;
+  }
+  #mouth > span {
+    width:29px;
+    height:33px;
+    background:#FFCFB9;
+    border-radius:50%;
+    position:absolute;
+    left:1px;
+    top:-4px
+    
+  }
